@@ -1,0 +1,25 @@
+git init    ---> initialize to track  a folder
+
+git status ---> for checking status of relatives to go stage
+git log    --> all the history of relative pic in wedding stage 
+git add .   --> to set the relative into stage
+git restore --staged(-S) filenmae --> to unstage the relative
+git restore filename -- > to unchaged into files
+git commit -m "your message" --> finally entering history into record
+git reset hashid --> to restore particular history
+
+to hide a file without commiting  we can use STASH
+
+git add. --> to add into stage
+git stash --> temporary store the file from the original folder without entry in record
+git stash pop --> to revert back the hidden files
+git stash clear --> to permanent remove the files
+
+to use remote storage or github 
+
+git remote -v ---> to check current origin(connected url)
+git remote add origin https://github     --> to save url as origin name
+git push origin master        --> pushing files into url(origin ) master branch
+
+
+
