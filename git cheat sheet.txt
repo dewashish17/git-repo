@@ -15,11 +15,23 @@ git stash --> temporary store the file from the original folder without entry in
 git stash pop --> to revert back the hidden files
 git stash clear --> to permanent remove the files
 
+
 to use remote storage or github 
 
 git remote -v ---> to check current origin(connected url)
 git remote add origin https://github     --> to save url as origin name
 git push origin master        --> pushing files into url(origin ) master branch
 
+to create a new branch 
 
+git branch branchname           --> create a new branch
+git push origin branchname       --> to push into new branch
+git checkout branchname   -->  to change our working branch
+git merge branchname      --> to merge this branch into main branch so that people can use it
+
+
+to clone project from your repo or other
+(fork it first so that we can make changes into that )
+
+git clone url    --> to get this project from my url
 
