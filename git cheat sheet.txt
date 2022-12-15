@@ -31,7 +31,34 @@ git merge branchname      --> to merge this branch into main branch so that peop
 
 
 to clone project from your repo or other
-(fork it first so that we can make changes into that )
+(fork it first so that we can make changes into that )---> by convetion we called it UPSTREAM (folk url)
 
 git clone url    --> to get this project from my url
 
+
+after committing into github to revert back
+you need to reset into your local repositroy and then you have to force push
+
+git push origin branchname -f  ---> commited file of pull requested will be deleted 
+
+
+
+fetch upstream to update your code with main project -->
+
+step1:-> git fetch --all --prune(the once at a deleted are also be fetched)
+step2:-> git checkout branchname
+step3:-> git reset --hard upstream m/main --> to reset your origin code with original main
+git log
+
+git push orgin main    --> to deflect into github
+
+or
+ (in single code) git pull upstream master
+
+
+
+
+merge conflict and squashing commit 
+
+git rebase -i(instractive ) hashid
+ 
